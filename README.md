@@ -1,69 +1,114 @@
-# Zomato-dashboard
- A Power BI dashboard analyzing Zomato restaurant data using interactive visuals and DAX measures.
-# 🍽️ Zomato Insight Dashboard – Power BI
+# 🍽️ Zomato Insight Dashboard – Power BI  
+**Designed & Developed by Lija Sahoo**
 
-## 📊 Project Overview
-An interactive Power BI dashboard created to analyze Zomato restaurant data. It offers insights into customer satisfaction, delivery time, restaurant performance, and cuisine popularity using rich visuals and slicers.
+---
 
-## 🚀 Features & Insights
-- **Top Restaurants** by order amount
-- **Customer Satisfaction Metrics**: Ratings, Order Value, Delivery Time
-- **Cuisine Popularity** analysis
-- **Yearly Order Trends**
-- **Ratings Distribution**
-- **Delivery Time by Location**
+## 📌 Project Overview  
+An interactive Power BI dashboard built using a Zomato restaurant dataset to uncover patterns in customer satisfaction, restaurant trends, delivery performance, and cuisine popularity. Designed for stakeholders who want actionable insights through clean visuals.
 
-## 🖼️ Dashboard Preview
-![Zomato Dashboard](Screenshots/dashboard-preview.png)
+---
 
-## 📁 Files Included
-- `zomato dashboard.pbix` – Power BI file
-- `Zomato.xlsx` – Raw data source
-- `Screenshots/dashboard-preview.png` – Dashboard image
+## 📊 Dashboard Features & Insights  
+- 🔝 **Top Restaurants** by order amount  
+- 😊 **Customer Satisfaction**: Ratings, Order Value, Delivery Time  
+- 🍲 **Cuisine Popularity** breakdown by city  
+- 📈 **Yearly Order Trends** visualization  
+- ⭐ **Ratings Distribution** by restaurant  
+- 🕒 **Delivery Time by Location** heatmaps and averages
 
-## 🛠 Tools Used
-- Power BI
-- DAX
-- Excel
+---
 
-## 📥 How to Use
-1. Clone or download the repo
-2. Open `zomato dashboard.pbix` in Power BI Desktop
-3. Refresh the data if required and explore!
+## 🖼️ Dashboard Preview  
+![Zomato Dashboard Preview](Screenshots/dashboard-preview.png)
 
-## 🙋‍♀️ Author
-**Lija Sahoo**  
-[LinkedIn](# 🍽️ Zomato Insight Dashboard – Power BI
+---
 
-## 📊 Project Overview
-An interactive Power BI dashboard created to analyze Zomato restaurant data. It offers insights into customer satisfaction, delivery time, restaurant performance, and cuisine popularity using rich visuals and slicers.
+## 🛠 Technologies Used  
+- 🧠 **Power BI** – for building the dashboard  
+- 🔄 **Power Query** – for cleaning and shaping data  
+- 📐 **DAX** – to create dynamic KPIs and calculated fields  
+- 📊 **Excel** – as the raw dataset source  
+- 🎨 **Figma/Canva** – for UI polish (optional)
 
-## 🚀 Features & Insights
-- **Top Restaurants** by order amount
-- **Customer Satisfaction Metrics**: Ratings, Order Value, Delivery Time
-- **Cuisine Popularity** analysis
-- **Yearly Order Trends**
-- **Ratings Distribution**
-- **Delivery Time by Location**
+---
 
-## 🖼️ Dashboard Preview
-![Zomato Dashboard](Screenshots/dashboard-preview.png)
+## 📂 Dataset Information  
+- 📌 **Source**: Zomato restaurant data (open-source)  
+- 🔢 **Entries**: 10,000+ restaurant records  
+- 📊 **Key Fields**:
+  - Restaurant Name, Location, City  
+  - Cuisine, Rating, Votes, Cost for Two  
+  - Delivery Time, Order Value, Online Delivery  
+- 📁 **Categories Analyzed**:
+  - Cities (50+)  
+  - Cuisine Types (e.g., Indian, Chinese, Italian)  
+  - Rating Scale (1.0–5.0)  
+  - Delivery Duration Groups
 
-## 📁 Files Included
-- `zomato dashboard.pbix` – Power BI file
-- `Zomato.xlsx` – Raw data source
-- `Screenshots/dashboard-preview.png` – Dashboard image
+---
 
-## 🛠 Tools Used
-- Power BI
-- DAX
-- Excel
+## 🔄 Data Processing Workflow  
+- ✅ Removed nulls and duplicates  
+- 🔤 Standardized city and cuisine text fields  
+- 📅 Created columns for year and time-based analysis  
+- 🍴 Split multiple cuisines into separate entries  
+- 🧮 Built rating and cost categories for filtering
 
-## 📥 How to Use
-1. Clone or download the repo
-2. Open `zomato dashboard.pbix` in Power BI Desktop
-3. Refresh the data if required and explore!
+---
 
-## 🙋‍♀️ Author
-**Lija Sahoo**  
-[LinkedIn](linkedin.com/in/lija-sahoo-4b3389259) | [GitHub](https://github.com/Lija12sahoo)
+## 🧠 Data Modeling Approach  
+- 🌟 **Star schema** structure  
+- 📊 **Fact Table**: `Zomato Orders`  
+- 📚 **Lookup Tables**:
+  - Cities  
+  - Cuisine Types  
+  - Ratings  
+  - Time Groups  
+- ➕ **DAX Measures**:
+  - Total Orders  
+  - Average Delivery Time  
+  - Most Voted Restaurants  
+  - Year-wise Growth  
+
+---
+
+## 📈 Key Results & Evaluation  
+- 🏙️ Top Cities: Delhi, Mumbai, Bangalore lead in orders  
+- 🚚 Fastest Delivery: Metro areas dominate  
+- 🍛 Popular Cuisines: North Indian, Chinese top the charts  
+- ⭐ Ratings: 4.0+ rating group dominates user trust  
+- 💸 Price Band: Medium pricing attracts most customers  
+- 📆 Orders: Growth observed post-2019
+
+---
+
+## 📘 Usage Instructions  
+- ⬇️ Download the `.pbix` file  
+- 🖥️ Open in **Power BI Desktop**  
+- 📂 Use available tabs:
+  - **Welcome**  
+  - **Overview**  
+  - **Explore**  
+- 🔍 Use slicers for:
+  - City, Cuisine, Year, Delivery Time, Rating  
+- 🖱️ Hover over visuals for additional details
+
+---
+
+## 🔮 Future Enhancements  
+- 🔗 Real-time Zomato API integration  
+- 🗺️ Geo-visualization of delivery zones  
+- 🧠 Predictive analytics with Power BI Forecast  
+- 🔐 Deploy with Row-Level Security (RLS)  
+- 👤 Add customer persona segmentation
+
+---
+
+## 🔗 Connect With Me  
+- 💼 [LinkedIn](linkedin.com/in/lija-sahoo-4b3389259)  
+- 💻 [GitHub](https://github.com/Lija12sahoo)  
+- 📧 Email: lijasahoo@example.com
+
+---
+
+© 2025 | Lija Sahoo  
