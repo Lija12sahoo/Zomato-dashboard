@@ -107,7 +107,7 @@ An interactive Power BI dashboard built using a Zomato restaurant dataset to unc
 ## 🔗 Connect With Me  
 - 💼 [LinkedIn](linkedin.com/in/lija-sahoo-4b3389259)  
 - 💻 [GitHub](https://github.com/Lija12sahoo)  
-- 📧 Email: lijasahoo@example.com
+- 📧 Email: lija2000sahoo@example.com
 
 ---
 
